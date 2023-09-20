@@ -28,3 +28,18 @@ taxonomies:
   industry: 'industries'
   product: 'products'
   blog_tag: 'blog_tags'
+
+module:
+  mounts:
+  - source: archetypes
+    target: archetypes
+  - source: content
+    target: content
+  - source: static
+    target: static
+  - source: layouts
+    target: layouts
+  - source: assets
+    target: assets
+  - source: modules
+    target: content
